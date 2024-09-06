@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #655050;
+    color: #c8c8c8;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #f5a8ff;
+    text-align: center;
+    font-size: 200px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Raleway';
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#search-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: #c8c8c8;
+}
+
+#search-icon:hover {
+    color: #c8c8c8;
+}
+
+/* Basic reset to remove default padding and margins */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333; /* Background color of the navbar */
+    position: fixed; /* Fixes the navbar at the top of the screen */
+    top: 0;
+    width: 100%; /* Makes the navbar stretch across the entire width of the screen */
+    z-index: 1000; /* Ensures the navbar stays on top of other content */
+}
+
+/* Style the list items within the navbar */
+nav ul {
+    list-style-type: none; /* Removes bullets from the list */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Aligns list items in a row */
+    justify-content: center; /* Aligns items to the center */
+    font-family: 'Raleway';
+}
+
+/* Style the individual links in the navbar */
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #c8c8c8; /* Text color */
+    text-align: center;
+    padding: 13px 20px; /* Padding around each link */
+    text-decoration: none; /* Removes the underline from the links */
+}
+
+nav ul li a:hover {
+    background-color: #575757; /* Changes background on hover */
+}
+
+#bottom-section {
+    background-color: #c8c8c8; /* Light background color */
+    color: #333; /* Dark text color */
+    padding: 30px 30px; /* Padding around the section */
+    text-align: center; /* Center the text */
+}
+
+#bottom-section h2 {
+    font-size: 2rem; /* Larger font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #ff69b4; /* Pink color for the heading */
+}
+
+#bottom-section p{
+    font-size: 16px; /* Slightly larger font size for the paragraph */
+    line-height: 1.6; /* Increased line spacing for readability */
+    max-width: 800px; /* Limit the width of the paragraph */
+    margin: 0 auto; /* Center the paragraph within the section */
+    color: #555; /* Slightly lighter color for the paragraph text */
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* To align them vertically in the center */
+}
+
+.title {
+    flex: 1; /* Left side */
+    text-align: left; /* Align text to the left */
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: 'Raleway';
+}
+
+.info {
+    flex: 1; /* Right side */
+    text-align: left; /* Align text to the right */
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: 'Raleway';
+    
+}
+.spaced-list li {
+    margin-bottom: 10px; /* Adds 10px of space between each list item */
+    max-width: 620px;
+}
+
+.contact-section {
+    background-color: #3e363f; /* Dark color for the contact section */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Raleway';
+}
+
+.contact-section h2 {
+    margin-top: 0;
+}
+
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-section input, .contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-section button {
+    background-color: #f5a8ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section button:hover {
+    background-color: #d35400;
+}
+
